@@ -3,16 +3,16 @@
 This repository contains all related files of the Udacity Machine Learning with TensorFlow Project II: Identify Customer Segments
 
 ## Installation
-All the dependencies libraries are in the spec-file.txt. Please run the command below to clone the conda environment of the project:
+All the dependencies libraries are in the [spec-file.txt](https://github.com/Mendy5/Udacity_Project_Identify_Customer_Segments/blob/main/spec-file.txt). Please run the command below to clone the conda environment of the project:
 ```
 conda create --name udacity_dev_workspace --file spec-file.txt
 ```
 
 ## Data Source
-[Udacity_AZDIAS_Subset]() contains the demographics data of the general population of Germany
-[AZDIAS_Feature_Summary]() contains a summary of feature attributes for demographics data
-[Udacity_CUSTOMERS_Subset]() contains demographics data of the customers of the mail order company
-[Data_Dictionary]() contains detailed information file about the features in the provided datasets
+[Udacity_AZDIAS_Subset](https://github.com/Mendy5/Udacity_Project_Identify_Customer_Segments/blob/main/Udacity_AZDIAS_Subset.csv) contains the demographics data of the general population of Germany
+[AZDIAS_Feature_Summary](https://github.com/Mendy5/Udacity_Project_Identify_Customer_Segments/blob/main/AZDIAS_Feature_Summary.csv) contains a summary of feature attributes for demographics data
+[Udacity_CUSTOMERS_Subset](https://github.com/Mendy5/Udacity_Project_Identify_Customer_Segments/blob/main/Udacity_CUSTOMERS_Subset.csv) contains demographics data of the customers of the mail order company
+[Data_Dictionary](https://github.com/Mendy5/Udacity_Project_Identify_Customer_Segments/blob/main/Data_Dictionary.md) contains detailed information file about the features in the provided datasets
 
 ## Project Motivation
 This project is to identify the target customers of the mail order company by applying the unsupervised models and comparing the difference between the segements of general population and the segements of the customers of this company.
@@ -26,7 +26,7 @@ Found target customer segments by applying the PCA and clustering. One target cu
 - very low movement patterns
 - High to very high share of 1-2 family houses in the microcell
 
-More details are in the [Identify_Customer_Segments.ipynb]() notebook.
+More details are in the [Identify_Customer_Segments.ipynb](https://github.com/Mendy5/Udacity_Project_Identify_Customer_Segments/blob/main/Identify_Customer_Segments.ipynb) notebook.
 
 # Licensing, Authors, Acknowledgements
 Must give credit to Bertelsmann Arvato Analytics for the data.
